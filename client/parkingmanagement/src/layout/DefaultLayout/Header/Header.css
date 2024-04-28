@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  height: 50px;
+  background: rgb(107, 228, 228);
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-left {
+  width: 500px;
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Yb+S+5DvxasFRL4d0gatA4rA4irlz7mcFM6vgbbcz2M=",
+  "Source": "ParkingManagement.Webserver",
+  "BasePath": "_content/ParkingManagement.Webserver",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

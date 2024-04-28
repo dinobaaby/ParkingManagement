@@ -1,0 +1,17 @@
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\bin\Debug\net8.0\ParkingManagement.Application.deps.json
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\bin\Debug\net8.0\ParkingManagement.Application.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\bin\Debug\net8.0\ParkingManagement.Application.pdb
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\bin\Debug\net8.0\ParkingManagement.Constracts.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\bin\Debug\net8.0\ParkingManagement.Domain.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\bin\Debug\net8.0\ParkingManagement.Domain.pdb
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\bin\Debug\net8.0\ParkingManagement.Constracts.pdb
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingManagement.Application.csproj.AssemblyReference.cache
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingManagement.Application.AssemblyInfoInputs.cache
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingManagement.Application.AssemblyInfo.cs
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingManagement.Application.csproj.CoreCompileInputs.cache
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingM.50A77FA3.Up2Date
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingManagement.Application.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\refint\ParkingManagement.Application.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ParkingManagement.Application.pdb
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Application\obj\Debug\net8.0\ref\ParkingManagement.Application.dll

@@ -1,0 +1,12 @@
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\bin\Debug\net8.0\ParkingManagement.Constracts.deps.json
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\bin\Debug\net8.0\ParkingManagement.Constracts.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\bin\Debug\net8.0\ParkingManagement.Constracts.pdb
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ParkingManagement.Constracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ParkingManagement.Constracts.AssemblyInfoInputs.cache
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ParkingManagement.Constracts.AssemblyInfo.cs
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ParkingManagement.Constracts.csproj.CoreCompileInputs.cache
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ParkingManagement.Constracts.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\refint\ParkingManagement.Constracts.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ParkingManagement.Constracts.pdb
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ref\ParkingManagement.Constracts.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\src\ParkingManagement.Constracts\obj\Debug\net8.0\ParkingManagement.Constracts.csproj.AssemblyReference.cache

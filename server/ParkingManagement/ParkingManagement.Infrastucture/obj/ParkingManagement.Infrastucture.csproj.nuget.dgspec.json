@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj": {}
+  },
+  "projects": {
+    "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj",
+        "projectName": "ParkingManagement.Domain",
+        "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj",
+        "projectName": "ParkingManagement.Infrastucture",
+        "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj",
+        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\ParkingManagement.Application.csproj": {
+                "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\ParkingManagement.Application.csproj"
+              },
+              "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\ParkingManagement.Constracts.csproj": {
+                "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\ParkingManagement.Constracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\ParkingManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\ParkingManagement.Application.csproj",
+        "projectName": "ParkingManagement.Application",
+        "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\ParkingManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj": {
+                "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\ParkingManagement.Domain.csproj"
+              },
+              "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\ParkingManagement.Constracts.csproj": {
+                "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\ParkingManagement.Constracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\ParkingManagement.Constracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\ParkingManagement.Constracts.csproj",
+        "projectName": "ParkingManagement.Constracts",
+        "projectPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\ParkingManagement.Constracts.csproj",
+        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Constracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
