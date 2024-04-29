@@ -30,3 +30,4 @@ D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingM
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Infrastucture\obj\Debug\net8.0\ParkingManagement.Infrastucture.pdb
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Infrastucture\obj\Debug\net8.0\ParkingManagement.Infrastucture.genruntimeconfig.cache
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Infrastucture\obj\Debug\net8.0\ref\ParkingManagement.Infrastucture.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Infrastucture\obj\Debug\net8.0\ParkingManagement.Infrastucture.sourcelink.json

@@ -22,3 +22,4 @@ D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingM
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Domain\obj\Debug\net8.0\refint\ParkingManagement.Domain.dll
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Domain\obj\Debug\net8.0\ParkingManagement.Domain.pdb
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Domain\obj\Debug\net8.0\ref\ParkingManagement.Domain.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Domain\obj\Debug\net8.0\ParkingManagement.Domain.sourcelink.json

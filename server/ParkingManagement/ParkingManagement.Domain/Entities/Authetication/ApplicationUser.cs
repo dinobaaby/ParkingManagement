@@ -21,7 +21,7 @@ namespace ParkingManagement.Domain.Entities.Authetication
         public int UserStatus { get; set; }
 
         public ICollection<RefreshToken>? RefreshToken { get; set; }
-
+        public virtual ICollection<Area>? Areas { get; set; }
         
     }
 

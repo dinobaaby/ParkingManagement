@@ -38,7 +38,9 @@ namespace ParkingManagement.Infrastucture.Repos
             {
                 new Claim(JwtRegisteredClaimNames.Name, user.UserName!),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email!),
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id!)
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id!),
+                new Claim(ClaimTypes.NameIdentifier
+                , user.Id!),
             };
 
 

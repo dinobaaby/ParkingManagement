@@ -59,7 +59,7 @@ namespace ParkingManagement.Infrastucture.Repos
             return await entities.FindAsync(id);
         }
 
-        public async Task<IEnumerable<T>> GetByUserNameAsync(Expression<Func<T, bool>> expression)
+        public async Task<IEnumerable<T>> GetByNameAsync(Expression<Func<T, bool>> expression)
         {
             return  await entities.Where(expression).ToListAsync();
         }

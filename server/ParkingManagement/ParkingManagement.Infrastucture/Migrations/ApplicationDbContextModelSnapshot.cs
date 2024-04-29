@@ -155,6 +155,29 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.ToTable("USERTOKEN", (string)null);
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Area", b =>
+                {
+                    b.Property<int>("AreaId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AreaId"));
+
+                    b.Property<string>("AreaName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(150)");
+
+                    b.HasKey("AreaId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AREA", (string)null);
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Authetication.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -258,6 +281,28 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.ToTable("REFRESHTOKE", (string)null);
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
+                {
+                    b.Property<int>("SlotId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SlotId"));
+
+                    b.Property<int>("AreaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("SlotName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("SlotId");
+
+                    b.HasIndex("AreaId");
+
+                    b.ToTable("SLOT", (string)null);
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -309,6 +354,17 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Area", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Authetication.ApplicationUser", "User")
+                        .WithMany("Areas")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Authetication.RefreshToken", b =>
                 {
                     b.HasOne("ParkingManagement.Domain.Entities.Authetication.ApplicationUser", "User")
@@ -319,8 +375,26 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Area", "Area")
+                        .WithMany("Slots")
+                        .HasForeignKey("AreaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Area");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Area", b =>
+                {
+                    b.Navigation("Slots");
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Authetication.ApplicationUser", b =>
                 {
+                    b.Navigation("Areas");
+
                     b.Navigation("RefreshToken");
                 });
 #pragma warning restore 612, 618

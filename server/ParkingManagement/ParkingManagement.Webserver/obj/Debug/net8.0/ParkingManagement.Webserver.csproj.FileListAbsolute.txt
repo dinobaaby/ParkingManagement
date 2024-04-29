@@ -187,3 +187,4 @@ D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingM
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Webserver\bin\Debug\net8.0\MailKit.dll
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Webserver\bin\Debug\net8.0\MimeKit.dll
 D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Webserver\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\HK6\ProjectDemo\fullstack\ParkingManagement\server\ParkingManagement\ParkingManagement.Webserver\obj\Debug\net8.0\ParkingManagement.Webserver.sourcelink.json

@@ -3,6 +3,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ParkingManagement.Domain.Entities;
 using ParkingManagement.Domain.Entities.Authetication;
 
 namespace ParkingManagement.Infrastucture.Data
@@ -13,7 +14,8 @@ namespace ParkingManagement.Infrastucture.Data
 
 
         public DbSet<RefreshToken> RefreshTokens { get; set; }
-
+        public DbSet<Area> Area { get; set; }
+        public DbSet<Slot> Slot { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -32,6 +34,21 @@ namespace ParkingManagement.Infrastucture.Data
             builder.Entity<IdentityUserLogin<string>>().ToTable("USERLOGIN");
             builder.Entity<IdentityUserToken<string>>().ToTable("USERTOKEN");
             builder.Entity<IdentityRoleClaim<string>>().ToTable("ROLECLAIM");
+
+            builder.Entity<Area>(entity =>
+            {
+                entity.ToTable("AREA");
+                entity.HasKey(a => a.AreaId);
+                entity.Property(a => a.AreaName).IsRequired();
+                entity.HasOne(e => e.User).WithMany(u => u.Areas).HasForeignKey(a => a.UserId);
+            });
+            builder.Entity<Slot>(entity =>
+            {
+                entity.ToTable("SLOT");
+                entity.HasKey(s => s.SlotId);
+                entity.Property(s => s.SlotName).IsRequired();
+                entity.HasOne(s => s.Area).WithMany(a => a.Slots).HasForeignKey(s => s.AreaId).OnDelete(DeleteBehavior.Cascade);
+            });
 
 
             builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);

@@ -70,6 +70,8 @@ namespace ParkingManagement.Infrastucture.DependencyInjection
             services.AddScoped<IRefreshTokenService, RefreshTokenService>();
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IRoleService, RoleService>();
+
+            services.AddScoped<IAreaService, AreaService>();
             return services;
         }
     }
