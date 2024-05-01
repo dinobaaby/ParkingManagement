@@ -72,6 +72,7 @@ namespace ParkingManagement.Infrastucture.DependencyInjection
             services.AddScoped<IRoleService, RoleService>();
 
             services.AddScoped<IAreaService, AreaService>();
+            services.AddScoped<ISlotService, SlotService>();
             return services;
         }
     }

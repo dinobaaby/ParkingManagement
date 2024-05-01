@@ -15,6 +15,7 @@ namespace ParkingManagement.Application.Mappings
             {
                 config.AddProfile(new AccoutMappingProfile());
                 config.AddProfile(new UserMappingProfile());
+                config.AddProfile(new SlotMappingProfile());
 
             });
 
