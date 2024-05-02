@@ -281,6 +281,33 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.ToTable("REFRESHTOKE", (string)null);
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Customer", b =>
+                {
+                    b.Property<int>("CustomerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CustomerId"));
+
+                    b.Property<string>("CustomerIdCard")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerPhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
+
+                    b.HasKey("CustomerId");
+
+                    b.ToTable("CUSTOMER", (string)null);
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
                 {
                     b.Property<int>("SlotId")
@@ -296,11 +323,62 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("SlotType")
+                        .HasColumnType("int");
+
                     b.HasKey("SlotId");
 
                     b.HasIndex("AreaId");
 
                     b.ToTable("SLOT", (string)null);
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Vehicle", b =>
+                {
+                    b.Property<int>("VehicleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VehicleId"));
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("VehicleColor")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VehiclePlateNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("VehicleTypeId")
+                        .HasColumnType("int");
+
+                    b.HasKey("VehicleId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("VehicleTypeId");
+
+                    b.ToTable("VEHICLE", (string)null);
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.VehicleType", b =>
+                {
+                    b.Property<int>("VehicleTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VehicleTypeId"));
+
+                    b.Property<string>("VehicleTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("VehicleTypeId");
+
+                    b.ToTable("VEHICLETYPE", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -386,6 +464,25 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Navigation("Area");
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Vehicle", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Customer", "Customer")
+                        .WithMany("Vehicles")
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("ParkingManagement.Domain.Entities.VehicleType", "VehicleTypes")
+                        .WithMany("Vehicles")
+                        .HasForeignKey("VehicleTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+
+                    b.Navigation("VehicleTypes");
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Area", b =>
                 {
                     b.Navigation("Slots");
@@ -396,6 +493,16 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Navigation("Areas");
 
                     b.Navigation("RefreshToken");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Customer", b =>
+                {
+                    b.Navigation("Vehicles");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.VehicleType", b =>
+                {
+                    b.Navigation("Vehicles");
                 });
 #pragma warning restore 612, 618
         }

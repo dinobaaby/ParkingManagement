@@ -16,7 +16,9 @@ namespace ParkingManagement.Infrastucture.Data
         public DbSet<RefreshToken> RefreshTokens { get; set; }
         public DbSet<Area> Area { get; set; }
         public DbSet<Slot> Slot { get; set; }
-
+        public DbSet<VehicleType> VehicleType { get; set; }
+        public DbSet<Vehicle> Vehicles {  get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -35,6 +37,7 @@ namespace ParkingManagement.Infrastucture.Data
             builder.Entity<IdentityUserToken<string>>().ToTable("USERTOKEN");
             builder.Entity<IdentityRoleClaim<string>>().ToTable("ROLECLAIM");
 
+
             builder.Entity<Area>(entity =>
             {
                 entity.ToTable("AREA");
@@ -48,6 +51,19 @@ namespace ParkingManagement.Infrastucture.Data
                 entity.HasKey(s => s.SlotId);
                 entity.Property(s => s.SlotName).IsRequired();
                 entity.HasOne(s => s.Area).WithMany(a => a.Slots).HasForeignKey(s => s.AreaId).OnDelete(DeleteBehavior.Cascade);
+            });
+
+
+       
+           
+
+            builder.Entity<Customer>(entity =>
+            {
+                entity.ToTable("CUSTOMER");
+                entity.HasKey(c => c.CustomerId);
+                entity.Property(c => c.CustomerName).IsRequired();
+                entity.Property(c => c.CustomerPhoneNumber).IsRequired().HasMaxLength(13);
+                entity.Property(c => c.CustomerIdCard).IsRequired().HasMaxLength(20);
             });
 
 

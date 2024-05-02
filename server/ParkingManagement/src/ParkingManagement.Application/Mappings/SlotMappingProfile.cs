@@ -10,7 +10,11 @@ namespace ParkingManagement.Application.Mappings
     {
         public SlotMappingProfile() 
         {
-            CreateMap<SlotDto, Slot>().ForMember(dest => dest.SlotId, otp => otp.MapFrom(src => src.SlotId)).ForMember(dest => dest.SlotName, otp => otp.MapFrom(src => src.SlotName)).ForMember(dest => dest.AreaId, otp => otp.MapFrom(src => src.AreaId));
+            CreateMap<Slot, SlotDto>()
+                .ForMember(dest => dest.SlotId, otp => otp.MapFrom(src => src.SlotId))
+                .ForMember(dest => dest.SlotName, otp => otp.MapFrom(src => src.SlotName))
+                .ForMember(dest => dest.AreaId, otp => otp.MapFrom(src => src.AreaId))
+                .ForMember(dest => dest.SlotType, otp => otp.MapFrom(src => src.SlotType));
         }
 
     }

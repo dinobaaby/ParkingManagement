@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParkingManagement.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+506b94e23b2652653e609f47741cf66526bdc3e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acd8af07278e165424ac227c0feaeedf571bbf21")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParkingManagement.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParkingManagement.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

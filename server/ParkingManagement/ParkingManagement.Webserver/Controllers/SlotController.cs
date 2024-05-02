@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using ParkingManagement.Application.DTOs;
 using ParkingManagement.Application.Services;
 using ParkingManagement.Domain.Entities;
@@ -10,10 +11,12 @@ namespace ParkingManagement.Webserver.Controllers
     public class SlotController : Controller
     {
         private readonly ISlotService _slotService;
+        private readonly IMapper _mapper;
 
-        public SlotController(ISlotService slotService)
+        public SlotController(ISlotService slotService, IMapper mapper)
         {
             _slotService = slotService;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -23,6 +26,7 @@ namespace ParkingManagement.Webserver.Controllers
 
             try
             {
+
                 var result = await _slotService.GetAllSlotsAsync(pageIndex, pageSize);
                 
 
@@ -81,5 +85,55 @@ namespace ParkingManagement.Webserver.Controllers
                 return BadRequest(new ServerResponse(null, false, ex.Message));
             }
         }
+        [HttpGet("GetSlotByName/{name}")]
+        public async Task<IActionResult> GetSlotByName(string name, int pageIndex, int pageSize) 
+        {
+            try
+            {
+                var result = await _slotService.GetSlotByNameAsync(name, pageIndex, pageSize);
+                return Ok(new ServerResponse(result, Message: "Get slot by name successfull"));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ServerResponse(null, false, ex.Message));
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(Slot slot)
+        {
+            try
+            {
+                bool isSuccess = await _slotService.UpdateSlotAsync(slot);
+                if (isSuccess)
+                {
+                    return Ok(new ServerResponse(slot, Message: "Updated"));
+                }
+                return BadRequest(new ServerResponse(null, false, "Faild"));
+            }catch(Exception ex)
+            {
+                return BadRequest(new ServerResponse(null, false, ex.Message));
+            }
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                bool isSuccess = await _slotService.DeleteSlotAsync(id);
+                if (isSuccess)
+                {
+                    return Ok(new ServerResponse(null, Message: "Deleted"));
+                }
+                return BadRequest(new ServerResponse(null, Message: "Faild"));
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(new ServerResponse(null, false, ex.Message));
+            }
+        }
+
     }
 }
