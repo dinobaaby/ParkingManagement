@@ -38,34 +38,12 @@ namespace ParkingManagement.Infrastucture.Data
             builder.Entity<IdentityRoleClaim<string>>().ToTable("ROLECLAIM");
 
 
-            builder.Entity<Area>(entity =>
-            {
-                entity.ToTable("AREA");
-                entity.HasKey(a => a.AreaId);
-                entity.Property(a => a.AreaName).IsRequired();
-                entity.HasOne(e => e.User).WithMany(u => u.Areas).HasForeignKey(a => a.UserId);
-            });
-            builder.Entity<Slot>(entity =>
-            {
-                entity.ToTable("SLOT");
-                entity.HasKey(s => s.SlotId);
-                entity.Property(s => s.SlotName).IsRequired();
-                entity.HasOne(s => s.Area).WithMany(a => a.Slots).HasForeignKey(s => s.AreaId).OnDelete(DeleteBehavior.Cascade);
-            });
+        
+           
 
 
        
-           
-
-            builder.Entity<Customer>(entity =>
-            {
-                entity.ToTable("CUSTOMER");
-                entity.HasKey(c => c.CustomerId);
-                entity.Property(c => c.CustomerName).IsRequired();
-                entity.Property(c => c.CustomerPhoneNumber).IsRequired().HasMaxLength(13);
-                entity.Property(c => c.CustomerIdCard).IsRequired().HasMaxLength(20);
-            });
-
+     
 
             builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }

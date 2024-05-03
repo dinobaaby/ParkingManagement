@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParkingManagement.Webserver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+debc275226b319076804efa48be74cefba6d97cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6cc927c4f0846aaa697207764feca315b8b7cd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParkingManagement.Webserver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParkingManagement.Webserver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

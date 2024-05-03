@@ -333,6 +333,26 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.ToTable("SLOT", (string)null);
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.TicketType", b =>
+                {
+                    b.Property<int>("TicketTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TicketTypeId"));
+
+                    b.Property<string>("TicketTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("TicketTypePrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("TicketTypeId");
+
+                    b.ToTable("TICKETTYPE", (string)null);
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Vehicle", b =>
                 {
                     b.Property<int>("VehicleId")
