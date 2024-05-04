@@ -1,14 +1,23 @@
+import PropTypes from "prop-types";
+import { IoMdMenu } from "react-icons/io";
 import "./Header.css";
 
-function Header() {
+function Header({ handleMenuClick, style }) {
   return (
-    <header className="header">
+    <header className={`header ${style}`}>
+      <button onClick={handleMenuClick} className="header-menu">
+        <IoMdMenu />
+      </button>
       <div className="header-left">
         <div className="header-left-search"></div>
       </div>
-      <div className="header-left"></div>
     </header>
   );
 }
+
+Header.propTypes = {
+  handleMenuClick: PropTypes.func.isRequired,
+  style: PropTypes.string,
+};
 
 export default Header;

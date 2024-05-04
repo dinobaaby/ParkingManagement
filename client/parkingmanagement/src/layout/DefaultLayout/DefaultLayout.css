@@ -1,19 +1,24 @@
 .wrapper {
+  position: relative;
   width: 100%;
   max-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: green;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  height: 1500px;
+  position: relative;
+  width: 100%;
+  min-height: 800px;
 }
 
-/* .content {
-  flex: 1;
-  min-height: 1000px;
-} */
+.content {
+  position: absolute;
+  left: calc(20% + 50px);
+  top: 100px;
+}
+
+.menu-open .content {
+  left: 50px; /* Khi menu được mở, dịch chuyển nội dung sang phải */
+}
