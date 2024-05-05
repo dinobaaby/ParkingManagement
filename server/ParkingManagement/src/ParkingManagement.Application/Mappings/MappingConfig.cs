@@ -18,6 +18,7 @@ namespace ParkingManagement.Application.Mappings
                 config.AddProfile(new SlotMappingProfile());
                 config.AddProfile(new VehicleTypeMappingProfile());
                 config.AddProfile(new CustomerMappingProfile());
+                config.AddProfile(new VehicleMappingProfile());
 
             });
 

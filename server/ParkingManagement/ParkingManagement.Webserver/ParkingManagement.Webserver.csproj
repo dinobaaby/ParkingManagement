@@ -27,4 +27,8 @@
     <ProjectReference Include="..\src\ParkingManagement.Constracts\ParkingManagement.Constracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Upload\" />
+  </ItemGroup>
+
 </Project>

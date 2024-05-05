@@ -1,10 +1,11 @@
 .header {
   position: absolute;
-  width: calc(100% - 20% - 40px);
-  left: calc(20% + 40px);
+  width: calc(100% - 340px);
+  left: 300px;
   height: 80px;
   display: flex;
-  justify-content: space-around;
+  padding: 0 20px;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e6e4e4;
 }
@@ -17,5 +18,5 @@
 
 .header-open {
   left: 0;
-  width: 100%;
+  width: calc(100% - 40px);
 }

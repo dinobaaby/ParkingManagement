@@ -368,6 +368,10 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("VehicleImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("VehiclePlateNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

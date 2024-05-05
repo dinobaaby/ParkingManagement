@@ -2149,6 +2149,7 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "ParkingManagement.Constracts": "1.0.0",
           "ParkingManagement.Domain": "1.0.0"
         },

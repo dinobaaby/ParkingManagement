@@ -8,7 +8,7 @@ const publicRoutes = [
   { path: routesConfig.home, component: Home },
   { path: routesConfig.login, component: Login, layout: null },
   { path: routesConfig.singup, component: SignUp, layout: null },
-  { path: routesConfig.accessdenied, component: AccessDenied, layout: null },
+  { path: routesConfig.accessdenied, component: AccessDenied },
 ];
 
 export { publicRoutes };

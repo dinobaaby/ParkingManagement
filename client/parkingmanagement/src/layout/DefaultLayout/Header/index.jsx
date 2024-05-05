@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { IoMdMenu } from "react-icons/io";
 import "./Header.css";
+import AccountAction from "../../../components/AccountAction/AccountAction";
 
 function Header({ handleMenuClick, style }) {
   return (
@@ -8,8 +9,8 @@ function Header({ handleMenuClick, style }) {
       <button onClick={handleMenuClick} className="header-menu">
         <IoMdMenu />
       </button>
-      <div className="header-left">
-        <div className="header-left-search"></div>
+      <div className="header-account-actions">
+        <AccountAction />
       </div>
     </header>
   );
