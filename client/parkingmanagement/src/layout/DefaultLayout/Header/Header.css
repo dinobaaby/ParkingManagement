@@ -10,10 +10,21 @@
   border-bottom: 1px solid #e6e4e4;
 }
 .header-menu {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   background: white;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 25px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.header-menu:hover {
+  background: rgba(175, 172, 172, 0.4);
 }
 
 .header-open {

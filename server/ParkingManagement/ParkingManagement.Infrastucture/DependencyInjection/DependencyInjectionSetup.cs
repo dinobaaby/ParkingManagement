@@ -78,6 +78,7 @@ namespace ParkingManagement.Infrastucture.DependencyInjection
             services.AddScoped<ITicketTypeService, TicketTypeService>();
             services.AddScoped<IUploadFileService, UploadFileService>();
             services.AddScoped<IVehicleService, VehicleService>();
+            services.AddScoped<ITicketService, TicketService>();
             return services;
         }
     }

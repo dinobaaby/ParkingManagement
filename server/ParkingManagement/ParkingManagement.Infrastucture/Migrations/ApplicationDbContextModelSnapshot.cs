@@ -281,6 +281,38 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.ToTable("REFRESHTOKE", (string)null);
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Bill", b =>
+                {
+                    b.Property<int>("BillId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BillId"));
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("PlateNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TicketId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("TimeIn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("TimeOut")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("BillId");
+
+                    b.HasIndex("TicketId")
+                        .IsUnique();
+
+                    b.ToTable("BILLS", (string)null);
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Customer", b =>
                 {
                     b.Property<int>("CustomerId")
@@ -331,6 +363,54 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.HasIndex("AreaId");
 
                     b.ToTable("SLOT", (string)null);
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Ticket", b =>
+                {
+                    b.Property<int>("TicketId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TicketId"));
+
+                    b.Property<DateTime?>("ExpiryDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("IssueDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("PlateNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SlotId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TicketStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TicketTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("VehicleId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("VehicleImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TicketId");
+
+                    b.HasIndex("SlotId")
+                        .IsUnique();
+
+                    b.HasIndex("TicketTypeId");
+
+                    b.HasIndex("VehicleId")
+                        .IsUnique()
+                        .HasFilter("[VehicleId] IS NOT NULL");
+
+                    b.ToTable("TICKETS", (string)null);
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.TicketType", b =>
@@ -477,6 +557,17 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Bill", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Ticket", "Ticket")
+                        .WithOne("Bill")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.Bill", "TicketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ticket");
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
                 {
                     b.HasOne("ParkingManagement.Domain.Entities.Area", "Area")
@@ -486,6 +577,31 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .IsRequired();
 
                     b.Navigation("Area");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Ticket", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Slot", "Slot")
+                        .WithOne("Ticket")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.Ticket", "SlotId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ParkingManagement.Domain.Entities.TicketType", "TicketType")
+                        .WithMany("Tickets")
+                        .HasForeignKey("TicketTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ParkingManagement.Domain.Entities.Vehicle", "Vehicle")
+                        .WithOne("Ticket")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.Ticket", "VehicleId");
+
+                    b.Navigation("Slot");
+
+                    b.Navigation("TicketType");
+
+                    b.Navigation("Vehicle");
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Vehicle", b =>
@@ -522,6 +638,27 @@ namespace ParkingManagement.Infrastucture.Migrations
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Customer", b =>
                 {
                     b.Navigation("Vehicles");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
+                {
+                    b.Navigation("Ticket");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Ticket", b =>
+                {
+                    b.Navigation("Bill")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.TicketType", b =>
+                {
+                    b.Navigation("Tickets");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Vehicle", b =>
+                {
+                    b.Navigation("Ticket");
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.VehicleType", b =>

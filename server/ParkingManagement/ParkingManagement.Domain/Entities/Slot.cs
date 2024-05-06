@@ -9,5 +9,6 @@ namespace ParkingManagement.Domain.Entities
         public int SlotType { get; set; }
         public int AreaId { get; set; }
         public virtual Area? Area { get; set; }
+        public Ticket? Ticket { get; set; }
     }
 }

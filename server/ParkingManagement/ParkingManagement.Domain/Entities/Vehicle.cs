@@ -12,5 +12,6 @@ namespace ParkingManagement.Domain.Entities
         public int CustomerId { get; set; }
         public virtual Customer? Customer { get; set; }
         public virtual VehicleType? VehicleTypes { get; set; }
+        public virtual Ticket? Ticket { get; set; }
     }
 }
