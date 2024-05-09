@@ -1,0 +1,84 @@
+.glasses {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.glass-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 35px 20px;
+    background: rgb(228, 225, 225);
+    width: 250px;
+    border-radius: 15px;
+}
+.glass-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.glass-item-content span:first-child {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.glass-item-content span:last-child {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(119, 118, 118);
+    font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1280px) {
+    .glass-item {
+        width: 220px;
+        padding: 35px 10px;
+        gap: 5px;
+    }
+    .glass-item-content span:first-child {
+        font-size: 1.3rem;
+    }
+    .glass-item-content span:last-child {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 1024px) {
+    .glass-item {
+        width: 180px;
+        padding: 35px 10px;
+    }
+    .glass-item img {
+        width: 40px;
+    }
+    .glass-item-content span:first-child {
+        font-size: 18px;
+    }
+    .glass-item-content span:last-child {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 900px) {
+    .glasses {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .glass-item {
+        width: 300px;
+        padding: 35px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .glass-item {
+        width: 250px;
+        padding: 35px 10px;
+    }
+}

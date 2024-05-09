@@ -15,7 +15,7 @@ namespace ParkingManagement.Application.Services
         Task<TicketDto> CreateTicketAsync(TicketDto ticketDto, IFormFile file);
         Task<TicketDto> UpdateTicketAsync(TicketDto ticketDto);
         Task<TicketDto> DeleteTicketAsync(int ticketId);
-
         Task<TicketDto> CheckInAsync(int ticketId, string plateNumber, IFormFile file);
+        Task<TicketDto> CheckOutAsync(int ticketId, string plateNumber, string imageUrl);
     }
 }

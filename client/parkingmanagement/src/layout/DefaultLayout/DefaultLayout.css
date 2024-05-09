@@ -1,18 +1,24 @@
 .wrapper {
-  position: relative;
-  width: 100%;
-  max-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .content {
-  position: absolute;
-  left: 330px;
-  top: 100px;
+    position: absolute;
+    width: calc(100% - 60px);
+    left: 330px;
+    top: 100px;
 }
 
 .menu-open .content {
-  left: 50px; /* Khi menu được mở, dịch chuyển nội dung sang phải */
+    left: 50px; /* Khi menu được mở, dịch chuyển nội dung sang phải */
+}
+
+.content-open {
+    width: calc(100% - 360px);
+    min-height: 100vh;
 }

@@ -41,6 +41,20 @@ namespace ParkingManagement.Infrastucture.Repos
 
         }
 
+        public async Task<TicketDto> CheckOutAsync(int ticketId, string plateNumber, string imageUrl)
+        {
+            var foundTicket = await _repo.GetByIdAsync(ticketId);
+            if(foundTicket.PlateNumber == plateNumber)
+            {
+
+                foundTicket.TicketStatus = 1;
+                foundTicket.PlateNumber = "0";
+                
+            }
+
+            return _mapper.Map<TicketDto>(foundTicket);
+        }
+
         public async Task<TicketDto> CreateTicketAsync(TicketDto ticketDto, IFormFile file)
         {
             if (file != null)

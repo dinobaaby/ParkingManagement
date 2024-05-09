@@ -1,0 +1,68 @@
+.account-action-auth {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    align-items: center;
+    border: 2px solid #bebfc2;
+    border-radius: 50%;
+}
+
+.account-action-auth .auth-image {
+    width: 30px;
+    height: 30px;
+}
+
+.auth-list-action {
+    position: absolute;
+    height: min-content;
+    top: 56px;
+    right: 0;
+    width: 200px;
+    border: 1px solid #e6e4e4;
+    transition: all 0.3s;
+    box-shadow: 0px 5px 5px -3px rgba(145, 158, 171, 0.2),
+        0px 8px 10px 1px rgba(145, 158, 171, 0.14),
+        0px 3px 14px 2px rgba(145, 158, 171, 0.12);
+}
+
+.auth-list-action ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-auth-action div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 10px 15px;
+    border-bottom: 1px solid #e6e4e4;
+}
+
+.menu-auth-action div span:first-child {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+}
+.menu-auth-action div span:nth-child(2) {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #5f5d5d;
+}
+.menu-auth-action li {
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #5c5a5a;
+}
+.menu-auth-action li:hover {
+    background-color: #f5f5f5;
+}
+
+.menu-auth-action li:last-child {
+    color: red;
+    padding: 10px 15px 10px 15px;
+    border-top: 1px solid #e6e4e4;
+}
