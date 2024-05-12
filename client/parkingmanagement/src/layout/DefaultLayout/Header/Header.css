@@ -106,3 +106,23 @@
     right: 5px;
     bottom: 0px;
 }
+
+@media (max-width: 768px) {
+    .header {
+        width: calc(100% - 50px);
+        left: 0;
+    }
+    .header-menu {
+        left: 10px;
+    }
+    .header-left-action {
+        gap: 10px;
+    }
+    .header-search-button {
+        display: none;
+    }
+    .search-container {
+        width: calc(100% - 20px);
+        left: 0px;
+    }
+}

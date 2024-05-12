@@ -1,8 +1,10 @@
 .glasses {
+    width: 100%;
     display: grid;
-    justify-content: center;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: space-between;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 
@@ -34,18 +36,18 @@
     color: rgb(119, 118, 118);
     font-family: "Poppins", sans-serif;
 }
-
+/* 
 @media (max-width: 1280px) {
     .glass-item {
-        width: 220px;
+        width: 200px;
         padding: 35px 10px;
         gap: 5px;
     }
     .glass-item-content span:first-child {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .glass-item-content span:last-child {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
 @media (max-width: 1024px) {
@@ -78,7 +80,40 @@
 
 @media (max-width: 768px) {
     .glass-item {
-        width: 250px;
+        width: 230px;
         padding: 35px 10px;
     }
 }
+
+@media (max-width: 600px) {
+    .glass-item {
+        width: 180px;
+        padding: 30px 10px;
+    }
+    .glass-item-content span:first-child {
+        font-size: 1.2rem;
+    }
+    .glass-item-content span:last-child {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 450px) {
+    h1 {
+        font-size: 20px;
+    }
+    .glasses {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .glass-item {
+        width: 150px;
+        padding: 10px 5px;
+    }
+    .glass-item-content span:first-child {
+        font-size: 15px;
+    }
+    .glass-item-content span:last-child {
+        font-size: 12px;
+    }
+} */

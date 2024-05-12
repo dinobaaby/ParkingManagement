@@ -366,8 +366,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Application\\Services\\ITicketService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:47:31.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T18:47:31.936Z"
             },
             {
               "$type": "Document",
@@ -379,8 +378,7 @@
               "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\TicketService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:52:11.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T18:52:11.788Z"
             },
             {
               "$type": "Document",
@@ -405,8 +403,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Application\\Services\\IBillService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:58:58.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T17:58:58.028Z"
             },
             {
               "$type": "Document",
@@ -418,8 +415,7 @@
               "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAqwDEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T18:21:26.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T18:21:26.497Z"
             },
             {
               "$type": "Document",
@@ -431,8 +427,7 @@
               "RelativeToolTip": "ParkingManagement.Domain\\Entities\\Bill.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T18:36:28.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T18:36:28.801Z"
             },
             {
               "$type": "Document",
@@ -444,8 +439,7 @@
               "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\BillConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T19:07:30.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T19:07:30.101Z"
             },
             {
               "$type": "Document",
@@ -457,8 +451,7 @@
               "RelativeToolTip": "ParkingManagement.Webserver\\Program.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAgwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T16:11:38.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T16:11:38.753Z"
             },
             {
               "$type": "Document",
@@ -470,8 +463,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Application\\Mappings\\AccoutMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T14:33:26.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T14:33:26.456Z"
             },
             {
               "$type": "Document",
@@ -483,8 +475,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T14:32:51.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T14:32:51.543Z"
             },
             {
               "$type": "Document",
@@ -496,8 +487,7 @@
               "RelativeToolTip": "ParkingManagement.Infrastucture\\DependencyInjection\\DependencyInjectionSetup.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAgwFIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T16:01:20.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T16:01:20.219Z"
             },
             {
               "$type": "Document",
@@ -509,8 +499,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Application\\Services\\IUploadFileService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:44:30.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T15:44:30.941Z"
             },
             {
               "$type": "Document",
@@ -522,8 +511,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Constracts\\Utils\\CalculateTotalHour.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:44:36.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T17:44:36.844Z"
             },
             {
               "$type": "Document",
@@ -535,8 +523,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Constracts\\Helpers\\MailRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:44:00.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T17:44:00.363Z"
             },
             {
               "$type": "Document",
@@ -548,8 +535,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Constracts\\Helpers\\JwtOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:43:59.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T17:43:59.687Z"
             },
             {
               "$type": "Document",
@@ -561,8 +547,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Constracts\\Helpers\\EmailSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:43:58.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T17:43:58.975Z"
             },
             {
               "$type": "Document",
@@ -574,8 +559,7 @@
               "RelativeToolTip": "src\\ParkingManagement.Constracts\\Helpers\\Contants.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:43:57.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T17:43:57.849Z"
             },
             {
               "$type": "Document",
@@ -587,8 +571,7 @@
               "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\AuthenticationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:42:22.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T17:42:22.952Z"
             },
             {
               "$type": "Document",
@@ -600,8 +583,7 @@
               "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\TicketTypeController.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAswG4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:34:29.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T17:34:29.561Z"
             },
             {
               "$type": "Document",
@@ -625,8 +607,7 @@
               "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\UploadFileService.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:48:13.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T15:48:13.738Z"
             },
             {
               "$type": "Document",
