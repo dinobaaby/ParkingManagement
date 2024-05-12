@@ -9,5 +9,6 @@ namespace ParkingManagement.Application.Services
         Task<string?> UploadFileAsync(IFormFile file,string filePath);
 
         FileStream GetImageAsync(string filePath);
+        Task<bool> DeleteFileAsync(string filePath);
     }
 }

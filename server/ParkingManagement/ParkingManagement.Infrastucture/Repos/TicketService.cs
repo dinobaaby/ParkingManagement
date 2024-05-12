@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using ParkingManagement.Application.DTOs;
 using ParkingManagement.Application.Services;
+using ParkingManagement.Constracts.Utils;
 using ParkingManagement.Domain.Entities;
 
 namespace ParkingManagement.Infrastucture.Repos
@@ -41,18 +42,34 @@ namespace ParkingManagement.Infrastucture.Repos
 
         }
 
-        public async Task<TicketDto> CheckOutAsync(int ticketId, string plateNumber, string imageUrl)
+        public async Task<object> CheckOutAsync(int ticketId, string plateNumber, string imageUrl)
         {
             var foundTicket = await _repo.GetByIdAsync(ticketId);
-            if(foundTicket.PlateNumber == plateNumber)
+            var endTime = DateTime.Now;
+            var totalHour = CalculateTotalHour.Calculate(foundTicket.IssueDate.ToString()!, endTime.ToString());
+            var totalAmount = totalHour * 40;
+            
+            if (foundTicket.PlateNumber == plateNumber)
             {
 
                 foundTicket.TicketStatus = 1;
                 foundTicket.PlateNumber = "0";
-                
+                foundTicket.VehicleImage = "null";
+                await _uploadFileService.DeleteFileAsync(imageUrl);
+                await _repo.UpdateAsync(foundTicket);
+                return new
+                {
+                    startTime = foundTicket.IssueDate,
+                    endTime = endTime,
+                    totalHour = totalHour,
+                    totalAmount = totalAmount,
+                    ticketId = foundTicket.TicketId,
+                };
             }
 
-            return _mapper.Map<TicketDto>(foundTicket);
+            return null!;
+
+            
         }
 
         public async Task<TicketDto> CreateTicketAsync(TicketDto ticketDto, IFormFile file)

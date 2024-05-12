@@ -43,6 +43,20 @@ namespace ParkingManagement.Webserver.Controllers
             }
         }
 
+        [HttpPatch("CheckOut/{ticketId}")]
+        public async Task<IActionResult> CheckOut(int ticketId, string plateNumber, string imageUrl)
+        {
+            try
+            {
+                var response = await _ticketService.CheckOutAsync(ticketId, plateNumber, imageUrl);
+                return Ok(new ServerResponse(response, true, "Ticket checked out successfully"));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new ServerResponse(null, false, e.Message));
+            }
+        }
+
         [HttpGet("GetByType/{ticketType}")]
         public async Task<IActionResult> GetTicketsByType(int ticketType)
         {
@@ -121,6 +135,35 @@ namespace ParkingManagement.Webserver.Controllers
             {
                 var response = await _ticketService.CreateTicketAsync(ticketDto, file);
                 return Ok(new ServerResponse(response, true, "Ticket created successfully"));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new ServerResponse(null, false, e.Message));
+            }
+        }
+
+        [HttpDelete("{ticketId}")]
+        public async Task<IActionResult> Delete(int ticketId)
+        {
+            try
+            {
+                var response = await _ticketService.DeleteTicketAsync(ticketId);
+                return Ok(new ServerResponse(response, true, "Ticket deleted successfully"));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new ServerResponse(null, false, e.Message));
+            }
+        }
+
+
+        [HttpPut]
+        public async Task<IActionResult> Update(TicketDto ticketDto)
+        {
+            try
+            {
+                var response = await _ticketService.UpdateTicketAsync(ticketDto);
+                return Ok(new ServerResponse(response, true, "Ticket updated successfully"));
             }
             catch (Exception e)
             {

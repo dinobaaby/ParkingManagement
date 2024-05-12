@@ -39,5 +39,27 @@ namespace ParkingManagement.Infrastucture.Repos
 
             return "";
         }
+        public async Task<bool> DeleteFileAsync(string filePath)
+        {
+            try
+            {
+                if (File.Exists(filePath))
+                {
+                    File.Delete(filePath);
+                    return true;
+                }
+                else
+                {
+                    // File doesn't exist at the specified path
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions that occur during file deletion
+                Console.WriteLine($"Error deleting file: {ex.Message}");
+                return false;
+            }
+        }
     }
 }
