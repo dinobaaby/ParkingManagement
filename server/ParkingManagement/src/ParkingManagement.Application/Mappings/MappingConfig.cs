@@ -20,6 +20,7 @@ namespace ParkingManagement.Application.Mappings
                 config.AddProfile(new CustomerMappingProfile());
                 config.AddProfile(new VehicleMappingProfile());
                 config.AddProfile(new TicketMappingProfile());
+                config.AddProfile(new BillMappingProfile());
 
             });
 

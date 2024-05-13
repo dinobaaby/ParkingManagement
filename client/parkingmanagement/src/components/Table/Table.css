@@ -1,0 +1,33 @@
+/* CSS cho bảng */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.table tr {
+    height: 50px;
+}
+.table th {
+    background-color: #f2f2f2; /* Màu nền của tiêu đề */
+    color: #333; /* Màu chữ của tiêu đề */
+    font-weight: bold; /* Độ đậm của tiêu đề */
+    padding: 10px; /* Khoảng cách giữa các ô và đường viền của tiêu đề */
+    text-align: left; /* Căn chỉnh văn bản trong tiêu đề */
+}
+
+/* CSS cho nội dung của bảng */
+.table td {
+    padding: 10px; /* Khoảng cách giữa các ô và đường viền của nội dung */
+    text-align: left;
+    color: #575757;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Màu nền của các hàng lẻ */
+}
+
+.table tr:hover {
+    background-color: #f2f2f2; /* Màu nền khi hover */
+}
