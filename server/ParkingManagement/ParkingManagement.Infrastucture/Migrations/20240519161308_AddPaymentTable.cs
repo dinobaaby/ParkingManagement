@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ParkingManagement.Infrastucture.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class AddPaymentTable : Migration
     {
-        /// <inheritdoc />
+       
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AlterColumn<string>(
@@ -112,7 +112,7 @@ namespace ParkingManagement.Infrastucture.Migrations
                 unique: true);
         }
 
-        /// <inheritdoc />
+       
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

@@ -80,6 +80,7 @@ namespace ParkingManagement.Infrastucture.DependencyInjection
             services.AddScoped<IVehicleService, VehicleService>();
             services.AddScoped<ITicketService, TicketService>();
             services.AddScoped<IBillService, BillService>();
+            services.AddScoped<IPaymentService, PaymentService>();
             return services;
         }
     }

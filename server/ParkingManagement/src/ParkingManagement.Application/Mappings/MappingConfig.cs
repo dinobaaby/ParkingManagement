@@ -1,9 +1,6 @@
 ﻿
 
 using AutoMapper;
-using ParkingManagement.Application.DTOs.Accout;
-using ParkingManagement.Application.DTOs.Authentication;
-using ParkingManagement.Domain.Entities.Authetication;
 
 namespace ParkingManagement.Application.Mappings
 {
@@ -21,7 +18,7 @@ namespace ParkingManagement.Application.Mappings
                 config.AddProfile(new VehicleMappingProfile());
                 config.AddProfile(new TicketMappingProfile());
                 config.AddProfile(new BillMappingProfile());
-
+                config.AddProfile(new PaymentMappingProfile());
             });
 
 
