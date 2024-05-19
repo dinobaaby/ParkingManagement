@@ -11,5 +11,6 @@ namespace ParkingManagement.Domain.Entities
         public DateTime TimeOut { get; set; }
         public decimal Amount { get; set; }
         public Ticket Ticket { get; set; } = null!;
+        public Payment Payment { get; set; } = null!;
     }
 }

@@ -14,13 +14,15 @@ namespace ParkingManagement.Infrastucture.Repos
         private readonly IServiceRepo<Ticket, int> _repo;
         private readonly IMapper _mapper;
         private readonly IUploadFileService _uploadFileService;
+        private readonly IBillService _billService;
 
 
-        public TicketService(IServiceRepo<Ticket, int> repo, IMapper mapper, IUploadFileService uploadFileService)
+        public TicketService(IServiceRepo<Ticket, int> repo, IMapper mapper, IUploadFileService uploadFileService, IBillService billService)
         {
             _repo = repo;
             _mapper = mapper;
             _uploadFileService = uploadFileService;
+            _billService = billService;
         }
 
         public async Task<TicketDto> CheckInAsync(int ticketId, string plateNumber, IFormFile file)
@@ -57,14 +59,16 @@ namespace ParkingManagement.Infrastucture.Repos
                 foundTicket.VehicleImage = "null";
                 await _uploadFileService.DeleteFileAsync(imageUrl);
                 await _repo.UpdateAsync(foundTicket);
-                return new
+                var billdto = new BillDto
                 {
-                    startTime = foundTicket.IssueDate,
-                    endTime = endTime,
-                    totalHour = totalHour,
-                    totalAmount = totalAmount,
-                    ticketId = foundTicket.TicketId,
+                    Amount = decimal.Parse(totalAmount.ToString()),
+                    TimeIn = (foundTicket.IssueDate) ?? DateTime.UtcNow,
+                    TimeOut = endTime,
+                    TicketId = foundTicket.TicketId,
+                    PlateNumber = plateNumber,
                 };
+                BillDto bill = await _billService.CreateBillAsync(billdto);
+                return bill ;
             }
 
             return null!;

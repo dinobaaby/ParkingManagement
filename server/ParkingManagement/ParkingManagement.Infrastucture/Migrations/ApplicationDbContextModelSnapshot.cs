@@ -281,6 +281,24 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.ToTable("REFRESHTOKE", (string)null);
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.BankTransfer", b =>
+                {
+                    b.Property<int>("PaymentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("BankId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BankName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PaymentId");
+
+                    b.ToTable("BANKRANSFER", (string)null);
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Bill", b =>
                 {
                     b.Property<int>("BillId")
@@ -313,6 +331,40 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.ToTable("BILLS", (string)null);
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Cash", b =>
+                {
+                    b.Property<int>("PaymentId")
+                        .HasColumnType("int");
+
+                    b.Property<float>("CashTendered")
+                        .HasColumnType("real");
+
+                    b.HasKey("PaymentId");
+
+                    b.ToTable("CASH", (string)null);
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Credit", b =>
+                {
+                    b.Property<int>("PaymentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CardNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ExpDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PaymentId");
+
+                    b.ToTable("CREDIT", (string)null);
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Customer", b =>
                 {
                     b.Property<int>("CustomerId")
@@ -338,6 +390,33 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.HasKey("CustomerId");
 
                     b.ToTable("CUSTOMER", (string)null);
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Payment", b =>
+                {
+                    b.Property<int>("PaymentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("BillId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETDATE()");
+
+                    b.HasKey("PaymentId");
+
+                    b.HasIndex("BillId")
+                        .IsUnique();
+
+                    b.ToTable("PAYMENT", (string)null);
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
@@ -380,7 +459,6 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("PlateNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("SlotId")
@@ -396,7 +474,6 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("VehicleImage")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("TicketId");
@@ -557,6 +634,17 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.BankTransfer", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Payment", "Payment")
+                        .WithOne("BankTransfer")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.BankTransfer", "PaymentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Payment");
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Bill", b =>
                 {
                     b.HasOne("ParkingManagement.Domain.Entities.Ticket", "Ticket")
@@ -566,6 +654,39 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .IsRequired();
 
                     b.Navigation("Ticket");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Cash", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Payment", "Payment")
+                        .WithOne("Cash")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.Cash", "PaymentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Payment");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Credit", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Payment", "Payment")
+                        .WithOne("Credit")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.Credit", "PaymentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Payment");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Payment", b =>
+                {
+                    b.HasOne("ParkingManagement.Domain.Entities.Bill", "Bill")
+                        .WithOne("Payment")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.Payment", "BillId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Bill");
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
@@ -635,9 +756,27 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Navigation("RefreshToken");
                 });
 
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Bill", b =>
+                {
+                    b.Navigation("Payment")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Customer", b =>
                 {
                     b.Navigation("Vehicles");
+                });
+
+            modelBuilder.Entity("ParkingManagement.Domain.Entities.Payment", b =>
+                {
+                    b.Navigation("BankTransfer")
+                        .IsRequired();
+
+                    b.Navigation("Cash")
+                        .IsRequired();
+
+                    b.Navigation("Credit")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Slot", b =>
@@ -647,8 +786,7 @@ namespace ParkingManagement.Infrastucture.Migrations
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Ticket", b =>
                 {
-                    b.Navigation("Bill")
-                        .IsRequired();
+                    b.Navigation("Bill");
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.TicketType", b =>
