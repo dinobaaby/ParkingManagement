@@ -13,6 +13,9 @@ import {
     DELETE_ROLE_REQUEST,
     DELETE_ROLE_SUCCESS,
     DELETE_ROLE_FAILURE,
+    FETCH_ROLE_BY_ID_SUCCESS,
+    FETCH_ROLE_BY_ID_FAILURE,
+    FETCH_ROLE_BY_ID_REQUEST,
 } from "./roleType.js";
 
 export const fetchAllRoles = () => {
@@ -47,5 +50,74 @@ export const fetchRolesSuccess = (roles) => {
 export const fetchRolesFailure = () => {
     return {
         type: FETCH_ROLE_FAILURE,
+    };
+};
+
+export const createRoleRequest = () => {
+    return {
+        type: CREATE_ROLE_REQUEST,
+    };
+};
+export const createRoleSuccess = (data) => {
+    return {
+        type: CREATE_ROLE_SUCCESS,
+        payload: data,
+    };
+};
+
+export const createRoleFailure = () => {
+    return {
+        type: CREATE_ROLE_FAILURE,
+    };
+};
+
+export const createNewRole = ({ roleName }) => {
+    return async (dispatch, getState) => {
+        dispatch(createRoleRequest());
+        try {
+            let res = await axios.post(
+                `http://localhost:5102/api/role?name=${roleName.toUpperCase()}`
+            );
+
+            if (res && res.data.isSuccess === true) {
+                dispatch(createRoleSuccess(res.data));
+                dispatch(fetchAllRoles());
+            }
+        } catch (error) {
+            console.log(error);
+            dispatch(createRoleFailure());
+        }
+    };
+};
+
+export const getRoleByIdRequest = () => {
+    return {
+        type: FETCH_ROLE_BY_ID_REQUEST,
+    };
+};
+export const getRoleByIdSuccess = (data) => {
+    return {
+        type: FETCH_ROLE_BY_ID_SUCCESS,
+        payload: data,
+    };
+};
+
+export const getRoleByIdFailure = () => {
+    return {
+        type: FETCH_ROLE_BY_ID_FAILURE,
+    };
+};
+
+export const fetchRoleById = (id) => {
+    return async (dispatch, getState) => {
+        dispatch(getRoleByIdRequest());
+        try {
+            const res = await axios.get(`http://localhost:5102/api/role/${id}`);
+            const data = res && res.data.result ? res.data.result : {};
+            dispatch(getRoleByIdSuccess(data));
+        } catch (error) {
+            console.log(error);
+            dispatch(getRoleByIdFailure());
+        }
     };
 };
