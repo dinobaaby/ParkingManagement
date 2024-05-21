@@ -2,6 +2,7 @@ import routesConfig from "../configs/router";
 import AccessDenied from "../pages/AccessDenied";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
+import Role from "../pages/Role/Role";
 import SignUp from "../pages/SignUp";
 import Users from "../pages/Users/Users";
 
@@ -11,6 +12,7 @@ const publicRoutes = [
     { path: routesConfig.singup, component: SignUp, layout: null },
     { path: routesConfig.accessdenied, component: AccessDenied },
     { path: routesConfig.users, component: Users },
+    { path: routesConfig.roles, component: Role },
 ];
 
 export { publicRoutes };

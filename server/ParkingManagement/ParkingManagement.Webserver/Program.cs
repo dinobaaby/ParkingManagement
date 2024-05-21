@@ -9,13 +9,15 @@ using ParkingManagement.Infrastucture.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+var cors_name = "parking-management-cors";
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -44,6 +46,17 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(cors_name, builder =>
+    {
+        builder.WithOrigins("*")
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+    });
+});
+
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication(builder.Configuration);
 builder.Services.AddAuthorization();
@@ -55,7 +68,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors(cors_name);
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
