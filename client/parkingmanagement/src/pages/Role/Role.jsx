@@ -1,14 +1,11 @@
 import { DataGrid } from "@mui/x-data-grid";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
 import { fetchAllRoles } from "../../features/role/roleAction.js";
-
-import MenuAction from "../../components/MenuAction/MenuAction.jsx";
 import { Button, CircularProgress, Grid } from "@mui/material";
-
+import DeleteRoleAction from "../../components/Role/DeleteRoleAction.jsx";
 import CreateRole from "../../components/Role/CreateRole.jsx";
-import RoleActions from "../../components/Role/RoleActions.jsx";
+import Alter from "../../components/Alter/Alter.jsx";
 
 export default function Role() {
     const columns = [
@@ -20,10 +17,15 @@ export default function Role() {
             headerName: "Action",
             width: 230,
             renderCell(params) {
-                return <RoleActions />;
+                return (
+                    <>
+                        <DeleteRoleAction roleData={params.row} />
+                    </>
+                );
             },
         },
     ];
+
     const dispatch = useDispatch();
     const listRole = useSelector((state) => state.role.roles);
     const roleData = listRole
@@ -35,6 +37,8 @@ export default function Role() {
               };
           })
         : [];
+    const isCreated = useSelector((state) => state.role.isCreating);
+    console.log({ isCreated });
     const isLoading = useSelector((state) => state.role.isLoading);
 
     const handleEdit = (role) => {
@@ -63,23 +67,33 @@ export default function Role() {
                 spacing={2}
                 style={{ justifyContent: "space-between" }}
                 mb={3}
+                height={"min-content"}
             >
                 <CreateRole />
             </Grid>
             {isLoading === true ? (
                 <CircularProgress />
             ) : (
-                <DataGrid
-                    rows={roleData}
-                    columns={columns}
-                    initialState={{
-                        pagination: {
-                            paginationModel: { page: 0, pageSize: 4 },
-                        },
-                    }}
-                    pageSizeOptions={[5, 10]}
-                    checkboxSelection
-                    style={{ backgroundColor: "white" }}
+                <div style={{ height: 400, width: "100%" }}>
+                    <DataGrid
+                        rows={roleData}
+                        columns={columns}
+                        initialState={{
+                            pagination: {
+                                paginationModel: { page: 0, pageSize: 5 },
+                            },
+                        }}
+                        pageSizeOptions={[5, 10]}
+                        checkboxSelection
+                        style={{ backgroundColor: "white" }}
+                    />
+                </div>
+            )}
+            {isCreated && (
+                <Alter
+                    isOpen={true}
+                    title="Create role success"
+                    status={true}
                 />
             )}
         </div>

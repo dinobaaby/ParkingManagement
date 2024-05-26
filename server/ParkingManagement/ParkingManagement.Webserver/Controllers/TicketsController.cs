@@ -16,11 +16,11 @@ namespace ParkingManagement.Webserver.Controllers
 
 
         [HttpGet]
-        public async Task<IActionResult> GetAllTickets()
+        public async Task<IActionResult> GetAllTickets(int pageIndex, int pageSize)
         {
             try
             {
-                var response = await _ticketService.GetTicketsAsync();
+                var response = await _ticketService.GetTicketsAsync(pageIndex, pageSize);
                 return Ok(new ServerResponse(response, true, "Tickets retrieved successfully"));
             }
             catch (Exception e)
@@ -58,11 +58,11 @@ namespace ParkingManagement.Webserver.Controllers
         }
 
         [HttpGet("GetByType/{ticketType}")]
-        public async Task<IActionResult> GetTicketsByType(int ticketType)
+        public async Task<IActionResult> GetTicketsByType(int ticketType, int pageIndex, int pageSize)
         {
             try
             {
-                var response = await _ticketService.GetTicketsByTypeAsync(ticketType);
+                var response = await _ticketService.GetTicketsByTypeAsync(ticketType, pageIndex, pageSize);
                 return Ok(new ServerResponse(response, true, "Tickets retrieved successfully"));
             }
             catch (Exception e)
@@ -72,11 +72,11 @@ namespace ParkingManagement.Webserver.Controllers
         }
 
         [HttpGet("GetByStatus/{ticketStatus}")]
-        public async Task<IActionResult> GetTicketsByStatus(int ticketStatus)
+        public async Task<IActionResult> GetTicketsByStatus(int ticketStatus, int pageIndex, int pageSize)
         {
             try
             {
-                var response = await _ticketService.GetTicketsByStatusAsync(ticketStatus);
+                var response = await _ticketService.GetTicketsByStatusAsync(ticketStatus, pageIndex, pageSize);
                 return Ok(new ServerResponse(response, true, "Tickets retrieved successfully"));
             }
             catch (Exception e)
@@ -129,7 +129,7 @@ namespace ParkingManagement.Webserver.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateTicket([FromForm] TicketDto ticketDto, IFormFile file)
+        public async Task<IActionResult> CreateTicket([FromForm] TicketDto ticketDto,  IFormFile file)
         {
             try
             {

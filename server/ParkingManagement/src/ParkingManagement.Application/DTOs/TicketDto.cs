@@ -10,7 +10,7 @@ namespace ParkingManagement.Application.DTOs
         public string VehicleImage { get; set; } = null!;
         public int SlotId { get; set; }
         public int TicketTypeId { get; set; }
-        public int VehicleId { get; set; }
+      
         public string PlateNumber { get; set; } = null!;
     }
 }

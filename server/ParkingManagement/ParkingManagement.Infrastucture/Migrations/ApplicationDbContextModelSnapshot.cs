@@ -470,9 +470,6 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Property<int>("TicketTypeId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("VehicleId")
-                        .HasColumnType("int");
-
                     b.Property<string>("VehicleImage")
                         .HasColumnType("nvarchar(max)");
 
@@ -482,10 +479,6 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .IsUnique();
 
                     b.HasIndex("TicketTypeId");
-
-                    b.HasIndex("VehicleId")
-                        .IsUnique()
-                        .HasFilter("[VehicleId] IS NOT NULL");
 
                     b.ToTable("TICKETS", (string)null);
                 });
@@ -521,6 +514,9 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
+                    b.Property<int>("TicketId")
+                        .HasColumnType("int");
+
                     b.Property<string>("VehicleColor")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -539,6 +535,9 @@ namespace ParkingManagement.Infrastucture.Migrations
                     b.HasKey("VehicleId");
 
                     b.HasIndex("CustomerId");
+
+                    b.HasIndex("TicketId")
+                        .IsUnique();
 
                     b.HasIndex("VehicleTypeId");
 
@@ -714,15 +713,9 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ParkingManagement.Domain.Entities.Vehicle", "Vehicle")
-                        .WithOne("Ticket")
-                        .HasForeignKey("ParkingManagement.Domain.Entities.Ticket", "VehicleId");
-
                     b.Navigation("Slot");
 
                     b.Navigation("TicketType");
-
-                    b.Navigation("Vehicle");
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Vehicle", b =>
@@ -733,6 +726,12 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("ParkingManagement.Domain.Entities.Ticket", "Ticket")
+                        .WithOne("Vehicle")
+                        .HasForeignKey("ParkingManagement.Domain.Entities.Vehicle", "TicketId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.HasOne("ParkingManagement.Domain.Entities.VehicleType", "VehicleTypes")
                         .WithMany("Vehicles")
                         .HasForeignKey("VehicleTypeId")
@@ -740,6 +739,8 @@ namespace ParkingManagement.Infrastucture.Migrations
                         .IsRequired();
 
                     b.Navigation("Customer");
+
+                    b.Navigation("Ticket");
 
                     b.Navigation("VehicleTypes");
                 });
@@ -787,16 +788,13 @@ namespace ParkingManagement.Infrastucture.Migrations
             modelBuilder.Entity("ParkingManagement.Domain.Entities.Ticket", b =>
                 {
                     b.Navigation("Bill");
+
+                    b.Navigation("Vehicle");
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.TicketType", b =>
                 {
                     b.Navigation("Tickets");
-                });
-
-            modelBuilder.Entity("ParkingManagement.Domain.Entities.Vehicle", b =>
-                {
-                    b.Navigation("Ticket");
                 });
 
             modelBuilder.Entity("ParkingManagement.Domain.Entities.VehicleType", b =>

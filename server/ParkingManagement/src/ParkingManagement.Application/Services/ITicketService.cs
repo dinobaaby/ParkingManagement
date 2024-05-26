@@ -6,9 +6,9 @@ namespace ParkingManagement.Application.Services
 {
     public interface ITicketService
     {
-        Task<IEnumerable<TicketDto>> GetTicketsAsync();
-        Task<IEnumerable<TicketDto>> GetTicketsByTypeAsync(int ticketType);
-        Task<IEnumerable<TicketDto>> GetTicketsByStatusAsync(int ticketStatus);
+        Task<IEnumerable<TicketDto>> GetTicketsAsync(int pageIndex, int pageSize);
+        Task<IEnumerable<TicketDto>> GetTicketsByTypeAsync(int ticketType, int pageIndex, int pageSize);
+        Task<IEnumerable<TicketDto>> GetTicketsByStatusAsync(int ticketStatus, int pageIndex, int pageSize);
         Task<IEnumerable<TicketDto>> GetTicketsByPlateNumberAsync(string plateNumber);
         Task<IEnumerable<TicketDto>> GetTicketsBySlotIdAsync(int slotId);
         Task<TicketDto> GetTicketByIdAsync(int ticketId);

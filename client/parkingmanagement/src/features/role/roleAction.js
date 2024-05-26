@@ -17,7 +17,7 @@ import {
     FETCH_ROLE_BY_ID_FAILURE,
     FETCH_ROLE_BY_ID_REQUEST,
 } from "./roleType.js";
-
+const url = "http://localhost:5102/api/role/";
 export const fetchAllRoles = () => {
     return async (dispatch, getState) => {
         dispatch(fetchRolesRequest());
@@ -112,12 +112,44 @@ export const fetchRoleById = (id) => {
     return async (dispatch, getState) => {
         dispatch(getRoleByIdRequest());
         try {
-            const res = await axios.get(`http://localhost:5102/api/role/${id}`);
+            const res = await axios.get(`${url}${id}`);
             const data = res && res.data.result ? res.data.result : {};
             dispatch(getRoleByIdSuccess(data));
         } catch (error) {
             console.log(error);
             dispatch(getRoleByIdFailure());
         }
+    };
+};
+
+export const deleteRoleByName = ({ name }) => {
+    return async (dispatch, getState) => {
+        try {
+            const res = await axios.delete(`${url}${name}`);
+            const data = res && res.data.result ? res.data.resutl : {};
+            dispatch(deleteRoleSuccess(data));
+            dispatch(fetchAllRoles());
+        } catch (err) {
+            console.log(`delete role error: ${err}`);
+            dispatch(deleteRoleFailure());
+        }
+    };
+};
+
+export const deleteRoleRequest = () => {
+    return {
+        type: DELETE_ROLE_REQUEST,
+    };
+};
+
+export const deleteRoleSuccess = (data) => {
+    return {
+        type: DELETE_ROLE_SUCCESS,
+        payload: data,
+    };
+};
+export const deleteRoleFailure = () => {
+    return {
+        type: DELETE_ROLE_FAILURE,
     };
 };

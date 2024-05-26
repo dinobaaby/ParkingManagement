@@ -36,7 +36,7 @@ namespace ParkingManagement.Infrastucture.Repos
         public async Task<Slot> CreateSlotAsync(Slot slot)
         {
 
-            RemoveCache("ListSlot");
+            
             var slotCreate = await _repo.CreateAsync(slot);
             if(slotCreate is not null)
             {
@@ -47,7 +47,7 @@ namespace ParkingManagement.Infrastucture.Repos
 
         public async Task<bool> DeleteSlotAsync(int slotId)
         {
-            RemoveCache("ListSlot");
+            
             var slotDelete = await _repo.GetByIdAsync(slotId);
             if(slotDelete is not null)
             {
@@ -125,8 +125,8 @@ namespace ParkingManagement.Infrastucture.Repos
 
         public async Task<bool> UpdateSlotAsync(Slot slot)
         {
-            RemoveCache("ListSlot");
-            _cache.Remove($"Slot_{slot.SlotId}");
+            //RemoveCache("ListSlot");
+            //_cache.Remove($"Slot_{slot.SlotId}");
 
             var slotUpdate = await _repo.UpdateAsync(slot);
             if(slotUpdate is not null)

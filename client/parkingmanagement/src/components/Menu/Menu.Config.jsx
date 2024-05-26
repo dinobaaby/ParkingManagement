@@ -1,6 +1,6 @@
 import { IoMdHome } from "react-icons/io";
 import routesConfig from "../../configs/router";
-import { People, RollerShades } from "@mui/icons-material";
+import { AirplaneTicket, People, RollerShades } from "@mui/icons-material";
 
 const MenuConfig = [
     {
@@ -24,9 +24,9 @@ const MenuConfig = [
         href: routesConfig.roles,
     },
     {
-        title: "Dashboards",
-        icon: <IoMdHome size={25} />,
-        href: routesConfig.home,
+        title: "Tickets",
+        icon: <AirplaneTicket size={25} />,
+        href: routesConfig.ticket,
     },
     {
         title: "Dashboards",

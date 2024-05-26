@@ -1,6 +1,7 @@
 import { Box, Button, Modal, Typography } from "@mui/material";
 import React, { useState } from "react";
 import { IoIosWarning } from "react-icons/io";
+import PropTypes from "prop-types";
 const style = {
     position: "absolute",
     top: "30%",
@@ -13,7 +14,7 @@ const style = {
     p: 4,
 };
 
-export default function DeleteRoleAction() {
+export default function DeleteRoleAction({ onDelete, roleData }) {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -67,3 +68,8 @@ export default function DeleteRoleAction() {
         </>
     );
 }
+
+DeleteRoleAction.propTypes = {
+    onDelete: PropTypes.func.isRequired,
+    roleData: PropTypes.object.isRequired,
+};

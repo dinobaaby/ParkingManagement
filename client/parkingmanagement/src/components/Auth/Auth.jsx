@@ -1,7 +1,10 @@
+import { useSelector } from "react-redux";
 import "./Auth.css";
 import { useState } from "react";
 export default function Auth() {
     const [onShowAuthMenu, setOnShowAuthMenu] = useState(false);
+
+    const user = useSelector((state) => state.auth.user);
 
     const handleShowAuthMenu = () => {
         setOnShowAuthMenu((menu) => !menu);
@@ -25,7 +28,11 @@ export default function Auth() {
                     <ul className="menu-auth-action">
                         <div>
                             <span>Jaydon Frankie</span>
-                            <span>demo@minimals.cc</span>
+                            <span>
+                                {user.userData
+                                    ? user.userData.email
+                                    : "admin@gmail.com"}
+                            </span>
                         </div>
                         <li>Home</li>
                         <li>Profile</li>

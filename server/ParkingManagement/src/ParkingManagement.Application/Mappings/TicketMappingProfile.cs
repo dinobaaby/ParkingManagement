@@ -13,7 +13,7 @@ namespace ParkingManagement.Application.Mappings
             CreateMap<Ticket, TicketDto>()
                 .ForMember(dest => dest.TicketId, opt => opt.MapFrom(src => src.TicketId))
                 .ForMember(dest => dest.PlateNumber, opt => opt.MapFrom(src => src.PlateNumber))
-                .ForMember(dest => dest.VehicleId, opt => opt.MapFrom(src => src.VehicleId))
+                
                 .ForMember(dest => dest.TicketTypeId, opt => opt.MapFrom(src => src.TicketTypeId))
                 .ForMember(dest => dest.SlotId, opt => opt.MapFrom(src => src.SlotId))
                 .ForMember(dest => dest.ExpiryDate, opt => opt.MapFrom(src => src.ExpiryDate))
@@ -24,7 +24,7 @@ namespace ParkingManagement.Application.Mappings
             CreateMap<TicketDto, Ticket>()
                 .ForMember(dest => dest.TicketId, opt => opt.MapFrom(src => src.TicketId))
                 .ForMember(dest => dest.PlateNumber, opt => opt.MapFrom(src => src.PlateNumber))
-                .ForMember(dest => dest.VehicleId, opt => opt.MapFrom(src => src.VehicleId))
+               
                 .ForMember(dest => dest.TicketTypeId, opt => opt.MapFrom(src => src.TicketTypeId))
                 .ForMember(dest => dest.SlotId, opt => opt.MapFrom(src => src.SlotId))
                 .ForMember(dest => dest.ExpiryDate, opt => opt.MapFrom(src => src.ExpiryDate))

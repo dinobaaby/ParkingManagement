@@ -3,24 +3,84 @@
   "WorkspaceRootPath": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|solutionrelative:parkingmanagement.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182836_updatevhc3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingManagement.Infrastucture\\Migrations\\20240525182836_updatevhc3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|solutionrelative:parkingmanagement.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\data\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\data\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182735_updatevhc3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingManagement.Infrastucture\\Migrations\\20240525182735_updatevhc3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\data\\vehicletypeconfuiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\data\\vehicletypeconfuiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525181740_updatevhc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingManagement.Infrastucture\\Migrations\\20240525181740_updatevhc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\data\\ticketconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\data\\ticketconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\src\\parkingmanagement.application\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|solutionrelative:src\\parkingmanagement.application\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525181006_updatevhc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingManagement.Infrastucture\\Migrations\\20240525181006_updatevhc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\data\\cutomerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\data\\cutomerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\data\\tickettypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\data\\tickettypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525180346_updatevhc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingManagement.Infrastucture\\Migrations\\20240525180346_updatevhc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525175848_updatevhc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingManagement.Infrastucture\\Migrations\\20240525175848_updatevhc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\src\\parkingmanagement.application\\mappings\\ticketmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|solutionrelative:src\\parkingmanagement.application\\mappings\\ticketmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\servicerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\servicerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\dependencyinjection\\dependencyinjectionsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\dependencyinjection\\dependencyinjectionsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\src\\parkingmanagement.application\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|solutionrelative:src\\parkingmanagement.application\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\src\\parkingmanagement.application\\mappings\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +91,104 @@
       "RelativeMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|solutionrelative:src\\parkingmanagement.application\\mappings\\paymentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\dependencyinjection\\dependencyinjectionsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\dependencyinjection\\dependencyinjectionsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\controllers\\areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\controllers\\tickettypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\controllers\\tickettypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.webserver\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA2D3DB-3114-4D29-975F-EEC9A63EA898}|ParkingManagement.Webserver\\ParkingManagement.Webserver.csproj|solutionrelative:parkingmanagement.webserver\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525174056_updateticketfk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ParkingManagement.Infrastucture\\Migrations\\20240525174056_updateticketfk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\slotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\slotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\src\\parkingmanagement.application\\services\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|solutionrelative:src\\parkingmanagement.application\\services\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\tickettypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\tickettypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\repos\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\repos\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.domain\\entities\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|solutionrelative:parkingmanagement.domain\\entities\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\src\\parkingmanagement.application\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|solutionrelative:src\\parkingmanagement.application\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\src\\parkingmanagement.application\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF490D0C-369A-4651-972A-167E8F7FDDE2}|src\\ParkingManagement.Application\\ParkingManagement.Application.csproj|solutionrelative:src\\parkingmanagement.application\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BBB2E5-8F79-47F8-AB92-232EB48E7300}|ParkingManagement.Domain\\ParkingManagement.Domain.csproj|solutionrelative:parkingmanagement.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|d:\\hk6\\projectdemo\\fullstack\\parkingmanagement\\server\\parkingmanagement\\parkingmanagement.infrastucture\\migrations\\20240525182146_updatevhc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566971AA-39D3-4A05-9D4C-F9E4B5C5C277}|ParkingManagement.Infrastucture\\ParkingManagement.Infrastucture.csproj|solutionrelative:parkingmanagement.infrastucture\\migrations\\20240525182146_updatevhc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +198,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 741,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,57 +210,536 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240525182836_updatevhc3.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182836_updatevhc3.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525182836_updatevhc3.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182836_updatevhc3.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525182836_updatevhc3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:28:36.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehicleConfiguration.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\VehicleConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Data\\VehicleConfiguration.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\VehicleConfiguration.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\VehicleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:56:51.793Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Domain\\Entities\\Ticket.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\Entities\\Ticket.cs",
+              "RelativeToolTip": "ParkingManagement.Domain\\Entities\\Ticket.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:37:22.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240525182735_updatevhc3.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182735_updatevhc3.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525182735_updatevhc3.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182735_updatevhc3.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525182735_updatevhc3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:27:35.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Domain\\Entities\\Vehicle.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "ParkingManagement.Domain\\Entities\\Vehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:55:57.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:10:52.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240525182146_updatevhc2.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182146_updatevhc2.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525182146_updatevhc2.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525182146_updatevhc2.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525182146_updatevhc2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:21:47.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleTypeConfuiguration.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\VehicleTypeConfuiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Data\\VehicleTypeConfuiguration.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\VehicleTypeConfuiguration.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\VehicleTypeConfuiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:09:20.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240525181740_updatevhc2.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525181740_updatevhc2.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525181740_updatevhc2.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525181740_updatevhc2.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525181740_updatevhc2.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:17:41.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CutomerConfiguration.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\CutomerConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Data\\CutomerConfiguration.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\CutomerConfiguration.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\CutomerConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:09:26.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketConfiguration.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\TicketConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Data\\TicketConfiguration.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\TicketConfiguration.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\TicketConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:38:51.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240525181006_updatevhc1.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525181006_updatevhc1.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525181006_updatevhc1.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525181006_updatevhc1.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525181006_updatevhc1.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:10:06.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TicketDto.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\DTOs\\TicketDto.cs",
+              "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\DTOs\\TicketDto.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\DTOs\\TicketDto.cs",
+              "RelativeToolTip": "src\\ParkingManagement.Application\\DTOs\\TicketDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:05:39.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicketTypeConfiguration.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\TicketTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Data\\TicketTypeConfiguration.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Data\\TicketTypeConfiguration.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Data\\TicketTypeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:11:45.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240525180346_updatevhc1.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525180346_updatevhc1.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525180346_updatevhc1.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525180346_updatevhc1.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525180346_updatevhc1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwCEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:03:46.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240525175848_updatevhc.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525175848_updatevhc.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525175848_updatevhc.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525175848_updatevhc.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525175848_updatevhc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:58:48.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TicketMappingProfile.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\TicketMappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\Mappings\\TicketMappingProfile.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\TicketMappingProfile.cs",
+              "RelativeToolTip": "src\\ParkingManagement.Application\\Mappings\\TicketMappingProfile.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:57:27.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\TicketService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\TicketService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\TicketService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\TicketService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAwwFUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:14:37.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UploadFileService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\UploadFileService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\UploadFileService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\UploadFileService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\UploadFileService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAArwCgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:14.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceRepo.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\ServiceRepo.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\ServiceRepo.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\ServiceRepo.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\ServiceRepo.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:21:50.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Program.cs",
               "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Program.cs",
               "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Program.cs",
               "RelativeToolTip": "ParkingManagement.Webserver\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADgAAAAHAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAawDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T15:37:48.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T15:37:48.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAIwC4AAAANAAAA",
+              "DocumentIndex": 20,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
+              "RelativeToolTip": "src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T17:49:41.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T17:41:46.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 21,
+              "Title": "PaymentMappingProfile.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
+              "RelativeToolTip": "src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:40:39.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "DependencyInjectionSetup.cs",
               "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\DependencyInjection\\DependencyInjectionSetup.cs",
               "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\DependencyInjection\\DependencyInjectionSetup.cs",
               "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\DependencyInjection\\DependencyInjectionSetup.cs",
               "RelativeToolTip": "ParkingManagement.Infrastucture\\DependencyInjection\\DependencyInjectionSetup.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAgwFIAAABCAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAawFQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T17:48:22.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAIwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:49:41.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AreaController.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\AreaController.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Controllers\\AreaController.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\AreaController.cs",
+              "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\AreaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:43:01.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:43:01.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:43:02.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TicketTypeController.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\TicketTypeController.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Controllers\\TicketTypeController.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\TicketTypeController.cs",
+              "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\TicketTypeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:42:55.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DataController.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\DataController.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Webserver\\Controllers\\DataController.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Webserver\\Controllers\\DataController.cs",
+              "RelativeToolTip": "ParkingManagement.Webserver\\Controllers\\DataController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowB4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:41:11.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240525174056_updateticketfk.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525174056_updateticketfk.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Migrations\\20240525174056_updateticketfk.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Migrations\\20240525174056_updateticketfk.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Migrations\\20240525174056_updateticketfk.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:40:56.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SlotService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\SlotService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\SlotService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\SlotService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\SlotService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwDEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:21:01.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\RoleService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\RoleService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\RoleService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\RoleService.cs",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAmwJQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:21:54.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Services\\ITicketService.cs",
+              "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\Services\\ITicketService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Services\\ITicketService.cs",
+              "RelativeToolTip": "src\\ParkingManagement.Application\\Services\\ITicketService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T08:42:35.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RefreshTokenService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\RefreshTokenService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\RefreshTokenService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\RefreshTokenService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\RefreshTokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:43.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\JwtTokenGenerator.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\JwtTokenGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:42.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\EmailService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\EmailService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\EmailService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:41.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\PaymentService.cs",
               "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\PaymentService.cs",
               "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\PaymentService.cs",
               "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\PaymentService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwBoAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T17:44:00.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 37,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\CustomerService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\CustomerService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\CustomerService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:39.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\AccountService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\AccountService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\AccountService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\AccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:34.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BillService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\BillService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\BillService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\BillService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\BillService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:32.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TicketTypeService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\TicketTypeService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\TicketTypeService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\TicketTypeService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\TicketTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:15.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "VehicleService.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\VehicleService.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Infrastucture\\Repos\\VehicleService.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Infrastucture\\Repos\\VehicleService.cs",
+              "RelativeToolTip": "ParkingManagement.Infrastucture\\Repos\\VehicleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:22:11.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Slot.cs",
+              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\Entities\\Slot.cs",
+              "RelativeDocumentMoniker": "ParkingManagement.Domain\\Entities\\Slot.cs",
+              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\Entities\\Slot.cs",
+              "RelativeToolTip": "ParkingManagement.Domain\\Entities\\Slot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:19:06.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Services\\IPaymentService.cs",
               "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\Services\\IPaymentService.cs",
@@ -120,31 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MappingConfig.cs",
-              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
-              "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
-              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
-              "RelativeToolTip": "src\\ParkingManagement.Application\\Mappings\\MappingConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T17:41:46.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PaymentMappingProfile.cs",
-              "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
-              "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
-              "ToolTip": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
-              "RelativeToolTip": "src\\ParkingManagement.Application\\Mappings\\PaymentMappingProfile.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T17:40:39.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 45,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\ParkingManagement.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "ParkingManagement.Domain\\Entities\\Payment.cs",
@@ -156,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 44,
               "Title": "PaymentDto.cs",
               "DocumentMoniker": "D:\\HK6\\ProjectDemo\\fullstack\\ParkingManagement\\server\\ParkingManagement\\src\\ParkingManagement.Application\\DTOs\\PaymentDto.cs",
               "RelativeDocumentMoniker": "src\\ParkingManagement.Application\\DTOs\\PaymentDto.cs",

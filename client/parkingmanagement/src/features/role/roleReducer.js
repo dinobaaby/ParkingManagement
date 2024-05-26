@@ -94,6 +94,46 @@ const roleReducer = (state = INITIAL_STATE, action) => {
                 isDetailing: false,
                 isError: true,
             };
+        case DELETE_ROLE_REQUEST:
+            console.log(`DELETE_ROLE_REQUEST`, action);
+            return {
+                ...state,
+                isDeleted: true,
+                isError: false,
+            };
+        case DELETE_ROLE_SUCCESS:
+            console.log(`DELETE_ROLE_SUCCESS`, action);
+            return {
+                ...state,
+                isDeleted: false,
+                isError: false,
+            };
+        case DELETE_ROLE_FAILURE:
+            console.log(`DELETE_ROLE_FAILURE`, action);
+            return {
+                ...state,
+                isDeleted: false,
+                isError: true,
+            };
+        case UPDATE_ROLE_REQUEST:
+            console.log(`UPDATE_ROLE_REQUEST`, action);
+            return {
+                ...state,
+                isUpdated: true,
+                isError: false,
+            };
+        case UPDATE_ROLE_SUCCESS:
+            return {
+                ...state,
+                isDeleted: false,
+                isError: false,
+            };
+        case UPDATE_ROLE_FAILURE:
+            return {
+                ...state,
+                isDeleted: false,
+                isError: true,
+            };
         default:
             return state;
     }

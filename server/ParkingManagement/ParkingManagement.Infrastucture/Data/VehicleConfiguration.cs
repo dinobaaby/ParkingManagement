@@ -15,8 +15,9 @@ namespace ParkingManagement.Infrastucture.Data
             entity.Property(c => c.VehiclePlateNumber).IsRequired();
             entity.HasOne(c => c.VehicleTypes).WithMany(c => c.Vehicles).HasForeignKey(c => c.VehicleTypeId).OnDelete(DeleteBehavior.Restrict);
             entity.HasOne(c => c.Customer).WithMany(c => c.Vehicles).HasForeignKey(c => c.CustomerId).OnDelete(DeleteBehavior.Restrict);
+            entity.HasOne(t => t.Ticket).WithOne(v => v.Vehicle).HasForeignKey<Vehicle>(t => t.TicketId).OnDelete(DeleteBehavior.Restrict); ;
 
-           
+
         }
     }
 }

@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using ParkingManagement.Application.DTOs;
 using ParkingManagement.Application.Services;
+using ParkingManagement.Constracts.Helpers;
 using ParkingManagement.Constracts.Utils;
 using ParkingManagement.Domain.Entities;
 
@@ -110,11 +111,18 @@ namespace ParkingManagement.Infrastucture.Repos
             return null!;
         }
 
-        public async Task<IEnumerable<TicketDto>> GetTicketsAsync()
+        public async Task<IEnumerable<TicketDto>> GetTicketsAsync(int pageInde, int pageSize)
         {
             var tickets = await _repo.GetAllAsync();
             var result =  tickets.OrderBy(t => t.TicketStatus);
-            return _mapper.Map<IEnumerable<TicketDto>>(result);
+
+            if (pageInde == 0 && pageSize == 0)
+            {
+                return _mapper.Map<IEnumerable<TicketDto>>(result);
+            }
+            var paginatedList = PaginatedList<Ticket>.Create(result.AsQueryable(), pageInde, pageSize);
+
+            return _mapper.Map<IEnumerable<TicketDto>>(paginatedList);
         }
 
         public async Task<IEnumerable<TicketDto>> GetTicketsByPlateNumberAsync(string plateNumber)
@@ -129,16 +137,18 @@ namespace ParkingManagement.Infrastucture.Repos
             return _mapper.Map<IEnumerable<TicketDto>>(ticket);
         }
 
-        public async Task<IEnumerable<TicketDto>> GetTicketsByStatusAsync(int ticketStatus)
+        public async Task<IEnumerable<TicketDto>> GetTicketsByStatusAsync(int ticketStatus, int pageIndex, int pageSize)
         {
             var tickets = await _repo.GetByNameAsync(t => t.TicketStatus == ticketStatus);
-            return _mapper.Map<IEnumerable<TicketDto>>(tickets);
+            var response = PaginatedList<Ticket>.Create(tickets.AsQueryable(), pageIndex, pageSize);
+            return _mapper.Map<IEnumerable<TicketDto>>(response);
         }
 
-        public async Task<IEnumerable<TicketDto>> GetTicketsByTypeAsync(int ticketType)
+        public async Task<IEnumerable<TicketDto>> GetTicketsByTypeAsync(int ticketType, int pageIndex, int pageSize)
         {
             var tickets = await _repo.GetByNameAsync(t => t.TicketTypeId == ticketType);
-            return _mapper.Map<IEnumerable<TicketDto>>(tickets);
+            var response = PaginatedList<Ticket>.Create(tickets.AsQueryable(), pageIndex, pageSize);
+            return _mapper.Map<IEnumerable<TicketDto>>(response);
         }
 
         public async Task<TicketDto> UpdateTicketAsync(TicketDto ticketDto)

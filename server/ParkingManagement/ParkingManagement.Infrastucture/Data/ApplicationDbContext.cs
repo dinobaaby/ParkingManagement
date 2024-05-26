@@ -17,7 +17,7 @@ namespace ParkingManagement.Infrastucture.Data
         public DbSet<Area> Area { get; set; }
         public DbSet<Slot> Slot { get; set; }
         public DbSet<VehicleType> VehicleType { get; set; }
-        public DbSet<Vehicle> Vehicles {  get; set; }
+        public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<Bill> Bills { get; set; }

@@ -29,6 +29,8 @@
 
   <ItemGroup>
     <Folder Include="Upload\" />
+    <Folder Include="Upload\Tickets\" />
+    <Folder Include="Upload\Vehicles\" />
   </ItemGroup>
 
 </Project>
