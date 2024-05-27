@@ -1,9 +1,0 @@
-.sidebar {
-  width: 300px;
-  height: 100vh;
-
-  background: white;
-  border-right: 1px solid #e6e4e4;
-  position: fixed;
-  gap: 20px;
-}
